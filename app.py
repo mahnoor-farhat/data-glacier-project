@@ -23,7 +23,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 
 
 file_path = 'app.py'
-df = pd.read_csv(file_path)
+df = pd.read_csv(file_path, delimiter=';')
 
 
 # In[4]:
