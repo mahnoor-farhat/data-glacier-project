@@ -22,7 +22,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 # In[3]:
 
 
-file_path = r"C:\Users\SAAD COMMUNICATION\OneDrive\Desktop\forecasting_case_study.csv"
+file_path = 'app.py'
 df = pd.read_csv(file_path)
 
 
