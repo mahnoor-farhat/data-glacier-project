@@ -22,8 +22,8 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 # In[3]:
 
 
-file_path = 'app.py'
-df = pd.read_csv(file_path, delimiter=';')
+file_path = 'forecasting_case_study.csv'
+df = pd.read_csv(file_path)
 
 
 # In[4]:
